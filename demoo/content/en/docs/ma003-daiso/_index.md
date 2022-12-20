@@ -1,6 +1,6 @@
 ---
-title: "NỘI DUNG"
-title2: "MÔN ĐẠI SỐ TUYẾN TÍNH"
+title: "MA003 - ĐẠI SỐ TUYẾN TÍNH"
+title2: "Tóm tắt môn học"
 description: "Môn học cung cấp cho sinh viên các kiến thức về ma trận,
     hệ phương trình tuyến tính,
     không gian Vecto,
@@ -10,10 +10,12 @@ description: "Môn học cung cấp cho sinh viên các kiến thức về ma tr
 date: 2020-10-06T08:49:55+00:00
 lastmod: 2020-10-06T08:49:55+00:00
 draft: false
-listchapter: ["Chương 1. MA TRẬN VÀ CÁC PHÉP TOÁN CƠ BẢN CỦA MA TRẬN"
+listchapter: [
+"Chương 0. GIỚI THIỆU MÔN HỌC"
+, "Chương 1. MA TRẬN VÀ CÁC PHÉP TOÁN CƠ BẢN CỦA MA TRẬN"
 , "Chương 2. HỆ PHƯƠNG TRÌNH TUYẾN TÍNH"
 , "Chương 3. KHÔNG GIAN VECTO"
 , "Chương 4. CHÉO HÓA MA TRẬN"
-, "Chương 5. Dạng song tuyến tính, dạng toàn phương"]
+, "Chương 5. DẠNG SONG TUYẾN TÍNH, DẠNG TOÀN PHƯƠNG"]
 images: []
 ---

@@ -1,6 +1,6 @@
 ---
 index: "1"
-title: "Say hello to Doks 👋"
+title: "TỔNG QUAN  VỀ MÔN HỌC ĐẠI SỐ TUYẾN TÍNH"
 description: "Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
 excerpt: "Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
 date: 2020-11-04T09:19:42+01:00
