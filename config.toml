@@ -1,6 +1,6 @@
-baseURL = "https://vnovel.pages.dev"
-title = "VNovel"
-author = ""
+baseURL = "/"
+title = ""
+author = "Nguyễn Minh Nhựt"
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -21,11 +21,11 @@ enableRobotsTXT = true
 paginator_pages = "6"
 
 # Site logo.
-#logo = ""
+logo = "/Images/cat.png"
 
   [params.homepage_meta_tags]
     meta_description = "Pixiv-like theme for novels."
-    meta_og_title = "VNovel"
+    meta_og_title = "Nguyễn Minh Nhựt"
     meta_og_type = "website"
     meta_og_url = "https://vnovel.pages.dev"
     meta_og_image = "https://vnovel.pages.dev/img/thumbnail.png"
@@ -39,7 +39,7 @@ paginator_pages = "6"
 
   [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "🔒 About Me 🔒"
     url = "/about/"
     weight = 1
 
