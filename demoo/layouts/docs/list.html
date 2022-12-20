@@ -1,24 +1,57 @@
 {{ define "main" }}
 <div class="row justify-content-center">
-  <div class="col-md-12 col-lg-10 col-xl-8">
-    <article>
-      <h1 class="text-center text-danger">{{ if eq .CurrentSection .FirstSection }}{{ .Section | humanize }}{{ else }}{{ .Title }}{{ end }}</h1>
-	  <h3 class="text-center">{{ if eq .CurrentSection .FirstSection }}{{ .Section | humanize }}{{ else }}{{ .Params.title2 }}{{ end }}</h3>
-	  <img scr="{{.Params.images}}">
-      <div class="text-center">{{ .Content }}</div>
-			<div class="card-list">
-				{{ $currentSection := .CurrentSection }}
-				{{ range where .Site.RegularPages.ByTitle "Section" .Section }}
-					{{ if in (.RelPermalink | string) $currentSection.RelPermalink }}
+	<div class="col-md-12 col-lg-10 col-xl-8">
+		<article>
+			<h1 class="text-center text-danger">{{ if eq .CurrentSection .FirstSection }}{{ .Section | humanize }}{{
+				else }}{{ .Title }}{{ end }}</h1>
+			<h3 class="text-center">{{ if eq .CurrentSection .FirstSection }}{{ .Section | humanize }}{{ else }}{{
+				.Params.title2 }}{{ end }}</h3>
+			<div class="card my-3">
+				<div class="card-body">
+					<p style="text-align: justify">{{ if eq .CurrentSection .FirstSection }}{{ .Section | humanize }}{{
+						else }}{{ .Params.description }}{{ end }}</p>
+				</div>
+			</div>
+
+			<div> {{ range $index, $chapter := .Params.listchapter -}}
+				<div class="card my-3">
+					<div class="card-header">
+					<p>{{$chapter}}</p>
+					<div class="card-list">
+						{{ $currentSection := .CurrentSection }}
+						{{ range where .Site.RegularPages.ByTitle "Section" .Section }}
+						{{ if in (.RelPermalink | string) $currentSection.RelPermalink }}
+						{{ if eq .Params.index ($index| string)}}
+						<div> {{ .Params.title | title }}</div>
 						<div class="card my-3">
 							<div class="card-body">
 								<a class="stretched-link" href="{{ .RelPermalink }}">{{ .Params.title | title }} &rarr;</a>
 							</div>
 						</div>
-					{{ end }}
+						{{ end }}
+						{{ end }}
+						{{ end }}
+					</div>		
+
+					</div>
+				</div>
+				{{ end -}}
+			</div>
+
+			<div class="text-center">{{ .Content }}</div>
+			<div class="card-list">
+				{{ $currentSection := .CurrentSection }}
+				{{ range where .Site.RegularPages.ByTitle "Section" .Section }}
+				{{ if in (.RelPermalink | string) $currentSection.RelPermalink }}
+				<div class="card my-3">
+					<div class="card-body">
+						<a class="stretched-link" href="{{ .RelPermalink }}">{{ .Params.title | title }} &rarr;</a>
+					</div>
+				</div>
+				{{ end }}
 				{{ end }}
 			</div>
-    </article>
-  </div>
+		</article>
+	</div>
 </div>
 {{ end }}

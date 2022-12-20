@@ -50,19 +50,21 @@
   identifier = "get-started"
   url = "/docs/prologue/introduction/"
 
+# ===================================== DANH MỤC MÔN TOÁN ========================
 [[main]]
   name = "MA003 - Toán Đại Số"
   url = "/docs/ma003-daiso/"
-  weight = 20
+  weight = 40
   parent = "get-started"
 
 [[main]]
   name = "MA006 - Toán Giải Tích"
   weight = 40
   identifier = "quick-start"
-  url = "/docs/prologue/quick-start/"
+  url = "/docs/ma006-giaitich/"
   parent = "get-started"
 
+# ===================================== DANH MỤC MÔN TOÁN ========================
 [[main]]
   name = "Tutorial"
   weight = 50
