@@ -18,7 +18,7 @@ homepage: false
 Tài liệu tham khảo có rất nhiều nguồn khác nhau chủ yếu chọn những sách hay và Tiếng Anh đọc nha 😄 <br>
 Môn này rất quan trọng đa số nghành khoa học máy tính nên học kỹ kỹ 😄 <br>
 
-## Tài liệu tiếng việt
+## Tài liệu Tiếng Việt
 
 [1] Nguyễn Đình Trí. "Giáo trình Toán Học Cao cấp 1". Nhà Xuất Bản Giáo Dục Việt Nam
 [Link Tiki →](https://tiki.vn/toan-hoc-cao-cap-tap-1-dai-so-va-hinh-hoc-giai-tich-p73262759.html?spid=75761220&utm_source=google&utm_medium=cpc&utm_campaign=SEA_NBR_GGL_PMA_DTP_ALL_VN_BK_UNK_UNK_C.ALL_X.18141603586_Y._V.75761220_W.DT_A._T._O.UNK&gclid=Cj0KCQiA14WdBhD8ARIsANao07gAskG9e3L4AsfeEzjLo8mAN9ZTJVnBvSx34k46fUW1SXy075iDd1caAkPgEALw_wcB)
@@ -31,7 +31,7 @@ Môn này rất quan trọng đa số nghành khoa học máy tính nên học k
 
 ... Updating
 
-## Tài liệu tiếng anh
+## Tài liệu Tiếng Anh
 
 [1] https://joshua.smcvt.edu/linearalgebra/book.pdf
 
