@@ -48,30 +48,22 @@ $$
 
 ## Nội dung tóm tắt môn học 
 #### (Cập nhật ngày 21/12/2022)
+##### Lớp: K17 - ĐẠI SỐ TUYẾN TÍNH 21h00 - Thứ 5
 
 |Tuần học | Nội dung | Thời gian|
-|:---|:----------------|----:|
-|Tuần 1 (3 tiết)| **Chương 1. Ma trận và các phép toán ma trận** <br>1. Định nghĩa ma trận <br>2. Các dạng ma trận đặc biệt <br> 3. Các phép trên ma trận <br>4. Các phép biến đổi sơ cấp | (Đã học)|
-|Tuần 2 (3 tiết)| **Chương 1. Ma trận và các phép toán ma trận** <br>4. Định thức ma trận <br>5. Ma trận khả nghịch | (Đã học)|
-|Tuần 3 (3 tiết)| **Chương 1. Ma trận và các phép toán ma trận** <br>6. Bài tập Chương 1| (Đã học)|
-### Recipes
-
-Get instructions on how to accomplish common tasks with Doks. [Recipes →](https://getdoks.org/docs/recipes/project-configuration/)
-
-### Reference Guides
-
-Learn how to customize Doks to fully make it your own. [Reference Guides →](https://getdoks.org/docs/reference-guides/security/)
-
-### Extensions
-
-Get instructions on how to add even more to Doks. [Extensions →](https://getdoks.org/docs/extensions/breadcrumb-navigation/)
-
-### Showcase
-
-See what others have build with Doks. [Showcase →](https://getdoks.org/showcase/electric-blocks/)
-
-## Contributing
-
-Find out how to contribute to Doks. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
-
-## Help
+|:---------|:----------------|----:|
+|Tuần 1 <br> (3 tiết)| **Chương 1. Ma trận và các phép toán ma trận** <br>1. Định nghĩa ma trận <br>2. Các dạng ma trận đặc biệt <br> 3. Các phép trên ma trận <br>4. Các phép biến đổi sơ cấp | (Đã học)|
+|Tuần 2  <br>(3 tiết)| **Chương 1. Ma trận và các phép toán ma trận** <br>4. Định thức ma trận <br>5. Ma trận khả nghịch | (Đã học)|
+|Tuần 3 <br> (3 tiết)| **Chương 1. Ma trận và các phép toán ma trận** <br>6. Bài tập Chương 1| (Đã học)|
+|Tuần 4  <br>(3 tiết)| **Chương 2. Hệ Phương trình tuyến tính** <br>1. Định nghĩa hệ phương trình tuyến tính| (Đã học)|
+|Tuần 5  <br>(3 tiết)| **Chương 2. Hệ Phương trình tuyến tính** <br>2. Định nghĩa hệ phương trình tuyến tính thuần nhất <br>3. Bài tập Chương 2| (Đã học)|
+|Tuần 6 <br> (3 tiết)| **Chương 3. Không gian Vectơ** <br>1. Định nghĩa không gian Véctơ <br>2. Các dạng không gian Véctơ <br> 3. Không gian Véctơ con| (Đã học)|
+|Tuần 7  <br>(3 tiết)| **Chương 3. Không gian Vectơ** <br>4. Tổ hợp tuyến tính <br>5. Độc lập tuyến tính - Phụ thuộc tuyến tính| (Đã học)|
+|Tuần 8  <br>(3 tiết)| **Ôn thi giữa kỳ**| (Đã học)|
+|Tuần 9  <br>(3 tiết)| **Chương 3. Không gian Vectơ** <br> 6. Cơ sở và số chiều của KGVT <br> 7. Tập sinh của KGVT | (Đã học)|
+|Tuần 10 <br> (3 tiết)| **Chương 3. Không gian Vectơ** <br> 8. Không gian nghiệm của hệ phương trình tuyến tính | (Đã học)|
+|Tuần 11  <br>(3 tiết)| **Chương 3. Không gian Vectơ** <br> 9. Tọa độ <br> 10. Ma trận chuyển cơ sở <br> 11. Ôn tập chương 3 | 22/12/2022 |
+|Tuần 12  <br>(3 tiết)| **Chương 4. Chéo hóa ma trận** <br> 1. Trị riêng, không gian Vectơ riêng <br> 2. Chéo hóa ma trận <br> 3. Ôn tập chương 4 | 29/12/2022 |
+|Tuần 13  <br>(3 tiết)| **Chương 5. Dạng song tuyến tính - Dạng toàn phương** <br> 1. Dạng song tuyến tính <br> 2. Dạng toàn phương <br> 3. Đưa về dạng toàn phương | 5/1/2023 |
+|Tuần 14  <br>(3 tiết)| **Chương 5. Dạng song tuyến tính - Dạng toàn phương** <br> 4. Ôn tập chương 5 | 12/1/2023 |
+|Tuần 15  <br>(3 tiết)| **Ôn thi cuối kỳ**| 17/1/2023 |
