@@ -16,7 +16,7 @@ homepage: false
 katex: true
 ---
 
-## Ma Trận
+## Ma Trận (Matrix)
 ### 1. Định nghĩa ma trận
 
 - Một ma trận cấp $m$x$n$ ($\begin{align} m \geq 1 \ ; \ n \geq 1 \end{align}$), với $m$ là số dòng của ma trận, $n$ là số cột của ma trận. <br>
@@ -36,6 +36,7 @@ với  $\foo$ là phần tử hàng thứ $i$ và cột thứ $j$
 
 - <span style="color:blue">**Chú ý:**</span> $M_{m \times n}$( ${\Reals}$) được gọi là tập hợp các ma trận cấp ${m \times n}$ trên trường số thực.
 
+- Ma trận thường được viết dưới dạng ngoặc hợp [] hoặc ngoặc đơn ()
 - **Ví dụ minh họa**:
 
 &nbsp; &nbsp; &nbsp; a) Ma trận $
@@ -98,11 +99,114 @@ $ là ma trận không có **3 dòng** và **3 cột**. <br>
    6 \cr
    7
 \end{pmatrix}$
+
 ### 4. Ma trận vuông
 
-## Các phép tính trên ma trận
-### 1. Phép cộng trừ hai ma trận cùng cấp
-### 2. Phép nhân hai ma trận, ma trận với 1 số
-### 3. Phép lũy thừa ma trận
+- Ma trận vuông là ma trận có n = số hàng = số cột. Ký hiệu  $M_{n \times n}$( ${\Reals}$) hay $M_n$(${\Reals}$) hay là ma trận vuông cấp n.
+- Dạng tổng quá của ma trận vuông cấp n
+$$
+\begin{pmatrix}
+   a_{11} & a_{12} & \dots  & a_{1n} \cr
+   a_{21} & a_{22} & \dots  & a_{2n} \cr
+   \vdots & \vdots & \vdots  & \vdots \cr
+   a_{n1} & a_{m2} & \dots  & a_{nn} 
+\end{pmatrix}
+$$
+- Ví dụ về ma trận vuông cấp $3 \times 3 $
 
+$$
+\begin{pmatrix}
+   5  & 9  & 2 \cr
+   0 & 7  & 7 \cr
+   0  & 0  & 2 
+\end{pmatrix}
+$$
+
+- Ma trận vuông cấp n có các phần tử $a_{11}, a_{22}, a_{33}, ... a_{nn}$. Tập hợp những phần tử này gọi là là ***đường chéo chính*** hay ***đường chéo*** của 
+dạng ma trận vuông.
+
+$$
+\begin{pmatrix}
+   \color{red}\bold5  & 9  & 2 \cr
+   -1 & \color{red}\bold7  & 7 \cr
+   4  & 2  & \color{red}\bold2 
+\end{pmatrix}
+$$
+
+- Vậy 5, 7, 2 là phần tử của đường chéo chính trong ma trận vuông.
+
+- <span style="color:blue">**Trường hợp ma trận vuông Đặc biệt**</span><br>
+-- Ma trận vuông có tất cả phần tử dưới đường chéo chính bằng 0, thì ma trận đó là <span style="color:#e9a374; font-style: italic;">ma trận tam giác trên.</span> <br>
+○ Ví dụ <br>
+$$
+\begin{pmatrix}
+   \color{red}\bold5  & 9  & 2 \cr
+   0 & \color{red}\bold7  & 7 \cr
+   0  & 0 & \color{red}\bold2 
+\end{pmatrix}
+$$
+-- Ma trận vuông có tất cả phần tử trên đường chéo chính bằng 0, thì ma trận đó là <span style="color:#e9a374; font-style: italic;">ma trận tam giác dưới.</span> <br>
+○ Ví dụ <br>
+$$
+\begin{pmatrix}
+   \color{red}\bold5  & 0  & 0 \cr
+   -1 & \color{red}\bold7  & 0 \cr
+   4  & 2  & \color{red}\bold2 
+\end{pmatrix}
+$$
+-- Ma trận vuông có tất cả phần tử ngoài đường chéo chính bằng 0, thì ma trận đó là <span style="color:#e9a374; font-style: italic;">ma trận đường chéo</span> <br>
+○ Ví dụ <br>
+$$
+\begin{pmatrix}
+   \color{red}\bold5  & 0  & 0 \cr
+   0 & \color{red}\bold7  & 0 \cr
+   0  & 0  & \color{red}\bold2 
+\end{pmatrix}
+$$
+### 5. Ma trận đơn vị
+- Ma trận đường chéo cấp n có tất cả phần tử đường chéo bằng 1 thì gọi là ma trận đơn vị cấp n kí hiệu là $I_{n}$ <br>
+-- Ví dụ <br>
+$$ I_{3} = 
+\begin{pmatrix}
+   \color{red}\bold1  & 0  & 0 \cr
+   0 & \color{red}\bold1  & 0 \cr
+   0  & 0  & \color{red}\bold1 
+\end{pmatrix}
+$$
+## Vô Hướng (Scalar)
+
+- Một số bất kỳ thuộc tập một số nào đó thì được gọi là Vô Hướng (Scalar).
+
+- Ví dụ 5 thuộc số tự nhiên ký hiệu là $5 \isin \N$
+
+- Ví dụ **5+i** thuộc trường số phức ký hiệu $5+i \isin \Complex$
+
+## Véctơ (Vector)
+
+- Véctơ trong ngôn ngữ lập trình còn có tên khác là mảng 1 chiều. Là một ma trận hàng hoặc ma trận cột (m = 1 hoặc n = 1).
+
+## Tenxơ (Ternsor)
+
+- Tenxơ là một mảng nhiều chiều. Như vậy định nghĩa thêm. <br>
+-- Vectơ là một mảng 1 chiều. <br>
+-- Matrix là một mảng 2 chiều. <br>
+-- Ternsor là một mảng nhiều chiều. <br>
+
+- Ứng dụng của Ternsor ứng dụng cũng rất nhiều trong nhiều nghành Khoa học Tự nhiên.
+## Các phép tính trên ma trận
+
+### 1. Phép toán so sánh hai ma trận
+- <span style="color:blue">**Điều kiện so sánh hai ma trận:**</span> Để hai ma trận so sánh được với nhau thì hai ma trận đó phải cùng cấp (cùng số hàng và cùng số cột).
+
+- <span style="color:blue">**Cách thức so sánh:**</span> Hai ma trận A, B cùng cấp với nhau, nếu $A_{ij} = B_{ij}, \forall i,j$ thì ta nói ma trận **A = B**.
+
+- Ví dụ so sánh hai ma trận sau đây
+### 2. Phép chuyển vị hai ma trận
+
+### 3. Phép cộng trừ hai ma trận cùng cấp
+### 4. Phép nhân hai ma trận, ma trận với 1 số
+### 5. Phép lũy thừa ma trận
+
+
+## Bài tập
 ## Tài liệu tham khảo
