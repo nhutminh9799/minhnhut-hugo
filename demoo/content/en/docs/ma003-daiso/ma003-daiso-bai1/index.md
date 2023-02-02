@@ -109,7 +109,7 @@ $$
    a_{11} & a_{12} & \dots  & a_{1n} \cr
    a_{21} & a_{22} & \dots  & a_{2n} \cr
    \vdots & \vdots & \vdots  & \vdots \cr
-   a_{n1} & a_{m2} & \dots  & a_{nn} 
+   a_{n1} & a_{m2} & \dots  & a_{mn} 
 \end{pmatrix}
 $$
 - Ví dụ về ma trận vuông cấp $3 \times 3 $
@@ -199,11 +199,59 @@ $$
 - <span style="color:blue">**Điều kiện so sánh hai ma trận:**</span> Để hai ma trận so sánh được với nhau thì hai ma trận đó phải cùng cấp (cùng số hàng và cùng số cột).
 
 - <span style="color:blue">**Cách thức so sánh:**</span> Hai ma trận A, B cùng cấp với nhau, nếu $A_{ij} = B_{ij}, \forall i,j$ thì ta nói ma trận **A = B**.
-
 - Ví dụ so sánh hai ma trận sau đây
-### 2. Phép chuyển vị hai ma trận
+*Cho hai ma trận cùng cấp A, B* $2 \times 2$:
+$$
+A=\begin{pmatrix}
+   x+y  & 2+x  \cr
+   2x+y & 2y
+\end{pmatrix};
+B= \begin{pmatrix}
+   5 & 5  \cr
+   10 - y & 2x - 2
+\end{pmatrix}
+$$
+<br> *Tìm $x,y$ để A, B bằng nhau*
+- **BÀI GIẢI**
+*Để A và B bằng nhau thì*
+$$\begin{cases}
+   x + y = 5 \cr
+   2 + x = 5 \cr
+   2x +  y = 10 - y \cr
+   2y = 2x - 2
+\end{cases} \lrArr \begin{cases}
+   y = 2 \cr
+   x = 3 
+\end{cases} $$
 
+### 2. Phép chuyển vị hai ma trận
+- <span style="color:blue">**Định nghĩa:**</span> *Ma trận chuyển vị* của ma trận  $A \in \ M_{m \times n}(\Reals)$ được ký hiệu là $A^T$,
+là ma trận có được đổi thứ tự giữa hàng và cột tương ứng của ma trận A.
+
+- Ta có ma trận $A$ và $A^T$ như sau:
+$$
+A = \begin{pmatrix}
+   a_{11} & a_{12} & \dots  & a_{1n} \cr
+   a_{21} & a_{22} & \dots  & a_{2n} \cr
+   \vdots & \vdots & \vdots  & \vdots \cr
+   a_{n1} & a_{m2} & \dots  & a_{mn} 
+\end{pmatrix}; A^T = \begin{pmatrix}
+   a_{11} & a_{21} & \dots  & a_{m1} \cr
+   a_{12} & a_{22} & \dots  & a_{2n} \cr
+   \vdots & \vdots & \vdots  & \vdots \cr
+   a_{1n} & a_{2n} & \dots  & a_{msn} 
+\end{pmatrix};
+$$
+
+- <span style="color:blue">**Các tính chất của ma trận chuyển vị:**</span> Cho $A, B$ là ma trận chuyển vị và thuộc $M_{m \times n}(\Reals)$
+Thì ta được các tính chất sau đây: <br>
+-- Tính chất 1: $(A^T)^T = A$ <br>
+-- Tính chất 2: $A^T = B^T \lrArr A = B$
+
+- <span style="color:blue">Định nghĩa *Ma trận đối xứng*: </span>Một ma trận được gọi là đối xứng khi và chỉ khi $A^T = A$
 ### 3. Phép cộng trừ hai ma trận cùng cấp
+- <span style="color:blue">**Điều kiện cộng trừ, hai ma trận:**</span> Hai ma trận $A, B$ muốn cộng được thì $A, B$ phải cùng cấp với nhau.
+- <span style="color:blue">**Cách tính tổng hai ma trận:**</span> Hai ma trận $A, B \isin M_{m \times n}(\Reals)$
 ### 4. Phép nhân hai ma trận, ma trận với 1 số
 ### 5. Phép lũy thừa ma trận
 
